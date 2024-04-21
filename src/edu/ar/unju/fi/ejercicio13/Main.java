@@ -20,6 +20,8 @@ public class Main {
 		for(int i=0; i<numeros.length; i++) {
 			System.out.println("El indice es " + i + " y el valor del mismo es " + numeros[i]);
 		}
+		
+		scanner.close();
 	}
 
 }
