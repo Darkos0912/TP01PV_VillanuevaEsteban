@@ -11,6 +11,12 @@ public class Persona {
 		
 	}
 	
+	int edadPersonaAbuelo() {
+		int num = 0;
+		if(num<1) return 23;
+		return 23;
+	}
+	
 	public int edadPersona() {
 		Calendar hoy = Calendar.getInstance();
 		
